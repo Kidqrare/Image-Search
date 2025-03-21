@@ -1,4 +1,3 @@
-/* Reset básico */
 * {
     margin: 0;
     padding: 0;
@@ -7,7 +6,7 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    background: linear-gradient(135deg, #e0f7fa, #80deea); /* Gradiente suave */
+    background: linear-gradient(135deg, #e0f7fa, #80deea);
     color: #333;
     min-height: 100vh;
     padding: 20px;
@@ -19,7 +18,7 @@ body {
 .container {
     max-width: 1200px;
     width: 100%;
-    background: rgba(255, 255, 255, 0.9); /* Fundo branco semi-transparente */
+    background: rgba(255, 255, 255, 0.9); 
     padding: 30px;
     border-radius: 15px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
@@ -29,7 +28,7 @@ body {
 h1 {
     font-size: 2.5rem;
     font-weight: 600;
-    color: #00796b; /* Verde escuro */
+    color: #00796b; 
     margin-bottom: 20px;
 }
 
@@ -51,12 +50,12 @@ input[type="text"] {
 }
 
 input[type="text"]:focus {
-    border-color: #004d40; /* Verde mais escuro */
+    border-color: #004d40; 
 }
 
 button[type="submit"] {
     padding: 12px 24px;
-    background: linear-gradient(135deg, #00796b, #004d40); /* Gradiente verde */
+    background: linear-gradient(135deg, #00796b, #004d40);
     color: #fff;
     border: none;
     border-radius: 25px;
@@ -108,7 +107,7 @@ button[type="submit"]:active {
 
 .download-button {
     padding: 10px 20px;
-    background: linear-gradient(135deg, #00796b, #004d40); /* Gradiente verde */
+    background: linear-gradient(135deg, #00796b, #004d40);
     color: #fff;
     border: none;
     border-radius: 25px;
